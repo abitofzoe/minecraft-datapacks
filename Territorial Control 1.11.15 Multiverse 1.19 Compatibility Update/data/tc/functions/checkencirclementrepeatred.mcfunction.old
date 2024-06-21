@@ -1,0 +1,12 @@
+#execute positioned ~ ~ ~15 if entity @e[tag=TC_inminigame,type=villager,tag=TC_redguard,distance=..1,tag=!TC_checked] run summon armor_stand ~ ~ ~-15 {Invisible:1,Marker:1,NoGravity:1,Silent:1,Invulnerable:1,Tags:["TC_inminigame","TC_checkerS","TC_checker","TC_checkerr"],Rotation:[0.0f,0.0f]}
+#execute positioned ~15 ~ ~ if entity @e[tag=TC_inminigame,type=villager,tag=TC_redguard,distance=..1,tag=!TC_checked] run summon armor_stand ~-15 ~ ~ {Invisible:1,Marker:1,NoGravity:1,Silent:1,Invulnerable:1,Tags:["TC_inminigame","TC_checkerE","TC_checker","TC_checkerr"],Rotation:[-90.0f,0.0f]}
+#execute positioned ~ ~ ~-15 if entity @e[tag=TC_inminigame,type=villager,tag=TC_redguard,distance=..1,tag=!TC_checked] run summon armor_stand ~ ~ ~15 {Invisible:1,Marker:1,NoGravity:1,Silent:1,Invulnerable:1,Tags:["TC_inminigame","TC_checkerN","TC_checker","TC_checkerr"],Rotation:[-180.0f,0.0f]}
+#execute positioned ~-15 ~ ~ if entity @e[tag=TC_inminigame,type=villager,tag=TC_redguard,distance=..1,tag=!TC_checked] run summon armor_stand ~15 ~ ~ {Invisible:1,Marker:1,NoGravity:1,Silent:1,Invulnerable:1,Tags:["TC_inminigame","TC_checkerW","TC_checker","TC_checkerr"],Rotation:[90.0f,0.0f]}
+
+tag @e[tag=TC_inminigame,type=villager,tag=TC_redguard,distance=1..16,tag=!TC_checked,tag=TC_guard] add TC_propagate
+tag @e[tag=TC_inminigame,type=villager,tag=TC_redguard,distance=1..16,tag=!TC_checked,tag=TC_guard] remove TC_encircled
+
+tag @s[tag=TC_inminigame] add TC_checked
+tag @s[tag=TC_inminigame] remove TC_propagate
+
+execute as @e[tag=TC_inminigame,tag=TC_redguard,tag=TC_propagate,type=villager,tag=!TC_checked] at @s[tag=TC_inminigame] run function tc:checkencirclementrepeatred

@@ -1,0 +1,11 @@
+execute as @s[tag=VG_pistolbullet] if score @s VG_bullettime >= VG_defines VG_def_pstlndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_pstldcay
+execute as @s[tag=VG_shotgunbullet] if score @s VG_bullettime >= VG_defines VG_def_shtgnndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_shtgndcay
+execute as @s[tag=VG_smgbullet] if score @s VG_bullettime >= VG_defines VG_def_smgndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_smgdcay
+execute as @s[tag=VG_riflebullet] if score @s VG_bullettime >= VG_defines VG_def_riflendcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_rifledcay
+execute as @s[tag=VG_mgunbullet] if score @s VG_bullettime >= VG_defines VG_def_mgunndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_mgundcay
+execute as @s[tag=VG_autoturbullet] if score @s VG_bullettime >= VG_defines VG_def_autondcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_autodcay
+execute as @s[tag=VG_egunbullet] if score @s VG_bullettime >= VG_defines VG_def_egunndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_egundcay
+execute as @s[tag=VG_hmgbullet] if score @s VG_bullettime >= VG_defines VG_def_hmgndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_hmgdcay
+execute as @s[tag=VG_vehicle_lmgbullet] if score @s VG_bullettime >= VG_defines VG_def_lmgndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_lmgdcay
+execute as @s[tag=VG_vehicle_hmgbullet] if score @s VG_bullettime >= VG_defines VG_def_hmgndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_hmgdcay
+execute as @s[tag=VG_vehicle_frag] if score @s VG_bullettime >= VG_defines VG_def_shtgnndcy run scoreboard players operation @s VG_fall_calc -= VG_defines VG_def_shtgndcy

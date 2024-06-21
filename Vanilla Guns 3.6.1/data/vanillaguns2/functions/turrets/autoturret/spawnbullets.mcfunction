@@ -1,0 +1,7 @@
+scoreboard players remove @s VG_autoturammo 1
+execute as @e[type=#vanillaguns2:hostile,tag=VG_autoturcasted,tag=VG_autoturtarget,sort=nearest,tag=!VG_autoturretskip,distance=1..32,tag=VG_autoturhit] if score @s VG_autoturid = @e[type=armor_stand,tag=VG_autoturret,distance=..0.1,limit=1] VG_autoturid facing entity @s feet anchored eyes run tp @e[type=armor_stand,tag=VG_autoturret,distance=..0.1,limit=1] ~ ~ ~ ~ ~
+execute as @e[type=#vanillaguns2:hostile,tag=VG_autoturcasted,tag=VG_autoturtarget,sort=nearest,tag=!VG_autoturretskip,distance=1..32,tag=VG_autoturhit] if score @s VG_autoturid = @e[type=armor_stand,tag=VG_autoturret,distance=..0.1,limit=1] VG_autoturid facing entity @s eyes anchored eyes run summon arrow ^ ^ ^-.1 {NoGravity:1,Tags:["VG_autoturbullet","VG_bullet"],Color:-1,CustomName:"{\"text\":\"Unknown Player using Auto Turret\"}",damage:1.7,life:1100,OwnerUUIDLeast:-1L,OwnerUUIDMost:-1L}
+execute at @s positioned 0 0 0 align xyz run summon arrow ^ ^ ^.04 {NoGravity:1,Tags:["VG_fakebullet"],life:0}
+playsound minecraft:entity.generic.explode player @a ~ ~ ~ .25 2
+
+execute as @e[type=arrow,tag=VG_autoturbullet,tag=!VG_init] at @s run function vanillaguns2:bulletinit/autoturbullet

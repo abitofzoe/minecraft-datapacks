@@ -1,0 +1,2 @@
+tellraw @a [{"text":"[SloopFinance] ","color":"green"},{"text":"EssentialsEconomy","color":"gold"},{"text":" found in the server! Now using ","color":"white"},{"text":"Bukkit","color":"green"},{"text":" rules."}]
+eco give @s 0

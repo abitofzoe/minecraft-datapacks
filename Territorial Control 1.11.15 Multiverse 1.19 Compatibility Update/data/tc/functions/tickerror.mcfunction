@@ -1,0 +1,2 @@
+tellraw @a[tag=TC_inminigame] [{"text":"Territorial Control:","color":"green"},{"text":" Something's wrong! Ticks are not being finished to completion!","color":"red"}]
+scoreboard players set TC_system TC_tickfinishedc 0

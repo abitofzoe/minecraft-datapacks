@@ -1,0 +1,1 @@
+title @a[tag=TC_inminigame] actionbar [{"text":"ERROR: ","color":"red"},{"text":"Do not use /kill @e. Please reinstall the map.","color":"yellow"}]

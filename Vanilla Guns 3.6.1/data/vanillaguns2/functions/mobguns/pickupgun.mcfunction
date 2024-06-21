@@ -1,0 +1,6 @@
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{VG_guninitialized:1b,display:{Name:'{"text":"Pistol"}'}}}}] run function vanillaguns2:mobguns/pistol
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{VG_guninitialized:1b,display:{Name:'{"text":"Shotgun"}'}}}}] run function vanillaguns2:mobguns/shotgun
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{VG_guninitialized:1b,display:{Name:'{"text":"SMG"}'}}}}] run function vanillaguns2:mobguns/smg
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{VG_guninitialized:1b,display:{Name:'{"text":"Rifle"}'}}}}] run function vanillaguns2:mobguns/rifle
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{VG_guninitialized:1b,display:{Name:'{"text":"Rocket Gun"}'}}}}] run function vanillaguns2:mobguns/rocketgun
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{VG_guninitialized:1b,display:{Name:'{"text":"Bayonet Charge"}'}}}}] run function vanillaguns2:mobguns/bayonetcharge

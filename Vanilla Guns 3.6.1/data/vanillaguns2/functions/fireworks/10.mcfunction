@@ -1,0 +1,1 @@
+give @s firework_rocket{Fireworks:{Flight:10}} 64

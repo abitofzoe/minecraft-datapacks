@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=VG_bullet,scores={VG_bullettime=1..}] run function vanillaguns2:special/overseer/deltamotionlast

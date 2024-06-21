@@ -1,0 +1,8 @@
+execute if score IZr_system IZr_lvlselected matches 1 run setblock -18 7 -9 minecraft:oak_wall_sign[facing=north]{front_text:{messages:['{"text":"> Classic <","clickEvent":{"action":"run_command","value":"trigger IZr_opcall set 2"},"color":"gold"}','{"text":"UNAVAILABLE","color":"gray"}','{"text":"UNAVAILABLE","color":"gray"}','{"text":"UNAVAILABLE","color":"gray"}']}}
+execute if score IZr_system IZr_lvlselected matches 2 run setblock -18 7 -9 minecraft:oak_wall_sign[facing=north]{front_text:{messages:['{"text":"Classic","clickEvent":{"action":"run_command","value":"trigger IZr_opcall set 2"},"color":"gray"}','{"text":"> UNAVAILABLE <","color":"gold"}','{"text":"UNAVAILABLE","color":"gray"}','{"text":"UNAVAILABLE","color":"gray"}']}}
+execute if score IZr_system IZr_lvlselected matches 3 run setblock -18 7 -9 minecraft:oak_wall_sign[facing=north]{front_text:{messages:['{"text":"Classic","clickEvent":{"action":"run_command","value":"trigger IZr_opcall set 2"},"color":"gray"}','{"text":"UNAVAILABLE","color":"gray"}','{"text":"> UNAVAILABLE <","color":"gold"}','{"text":"UNAVAILABLE","color":"gray"}']}}
+execute if score IZr_system IZr_lvlselected matches 4 run setblock -18 7 -9 minecraft:oak_wall_sign[facing=north]{front_text:{messages:['{"text":"Classic","clickEvent":{"action":"run_command","value":"trigger IZr_opcall set 2"},"color":"gray"}','{"text":"UNAVAILABLE","color":"gray"}','{"text":"UNAVAILABLE","color":"gray"}','{"text":"> UNAVAILABLE <","color":"gold"}']}}
+
+setblock -18 6 -9 minecraft:oak_wall_sign[facing=north]{front_text:{messages:['[""]','[""]','[""]','{"text":">> CONFIRM <<","clickEvent":{"action":"run_command","value":"trigger IZr_opcall set 3"},"color":"aqua"}']}}
+
+function zombie:rewrite/lobbylock

@@ -1,0 +1,2 @@
+effect clear @e[type=villager,tag=VG_hpvillager,distance=..0.5,sort=nearest,limit=1] resistance
+effect give @e[type=villager,tag=VG_hpvillager,distance=..0.5,sort=nearest,limit=1] instant_damage 1 0 true

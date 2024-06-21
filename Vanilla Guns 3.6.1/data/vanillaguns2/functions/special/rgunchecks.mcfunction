@@ -1,0 +1,4 @@
+execute at @s store success score @s VG_rgunchecks if block ^1 ^1.5 ^-0.5 #vanillaguns2:rgunsafeblocks if block ^-1 ^1.5 ^-0.5 #vanillaguns2:rgunsafeblocks if block ^1 ^1.5 ^ #vanillaguns2:rgunsafeblocks if block ^-1 ^1.5 ^ #vanillaguns2:rgunsafeblocks if block ^1 ^1.5 ^1 #vanillaguns2:rgunsafeblocks if block ^-1 ^1.5 ^1 #vanillaguns2:rgunsafeblocks if block ^-1 ^2.5 ^1 #vanillaguns2:rgunsafeblocks if block ^1 ^2.5 ^1 #vanillaguns2:rgunsafeblocks if block ^-1 ^2.5 ^ #vanillaguns2:rgunsafeblocks if block ^1 ^2.5 ^ #vanillaguns2:rgunsafeblocks if block ^-1 ^2.5 ^-0.5 #vanillaguns2:rgunsafeblocks if block ^1 ^2.5 ^0.5 #vanillaguns2:rgunsafeblocks
+execute if score @s VG_rgunchecks matches 1 run function vanillaguns2:guns/firergun
+execute if score @s VG_rgunchecks matches 0 run function vanillaguns2:guns/rgunblocked
+ 

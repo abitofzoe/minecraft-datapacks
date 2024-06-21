@@ -1,0 +1,2 @@
+kill @s[tag=TC_inminigame]
+execute as @e[tag=TC_inminigame,type=area_effect_cloud,limit=1,tag=TC_pulsecheck,tag=TC_pulsered,tag=TC_pulseinit] at @s[tag=TC_inminigame] if block ~ ~ ~ #minecraft:rails run function tc:simulatepulsemovementred

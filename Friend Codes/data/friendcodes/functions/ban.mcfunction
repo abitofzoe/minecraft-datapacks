@@ -1,0 +1,1 @@
+kick @a[tag=FC_failure] Wrong code! You're not a friend </3 !!

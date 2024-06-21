@@ -1,0 +1,3 @@
+execute as @e[tag=TC_inminigame,tag=TC_redguard,tag=TC_propagate,type=villager,limit=1,tag=!TC_checked] if entity @e[tag=TC_inminigame,tag=TC_redguard,type=villager,tag=!TC_checked,tag=TC_guard,distance=1..16] at @s[tag=TC_inminigame] run function tc:checkencirclementrepeatred
+
+execute as @e[tag=TC_inminigame,tag=TC_blueguard,tag=TC_propagate,type=villager,limit=1,tag=!TC_checked] if entity @e[tag=TC_inminigame,tag=TC_blueguard,type=villager,tag=!TC_checked,tag=TC_guard,distance=1..16] at @s[tag=TC_inminigame] run function tc:checkencirclementrepeatblue

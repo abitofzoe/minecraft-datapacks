@@ -1,0 +1,1 @@
+title @a actionbar {"text":"Debugging mode active -- all execution paused","color":"red"}

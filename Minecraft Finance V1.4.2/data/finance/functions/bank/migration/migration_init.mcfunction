@@ -1,0 +1,1 @@
+tag @s add SM_bank_account_init

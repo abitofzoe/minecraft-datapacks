@@ -1,0 +1,2 @@
+tag @e[type=armor_stand,tag=VG_vehiclebody,scores={VG_vehicleid=1..},limit=1,tag=!VG_calculatinghp,tag=!VG_skiphealth] add VG_calculatinghp
+execute as @e[type=armor_stand,tag=VG_vehiclebody,scores={VG_vehicleid=1..},limit=1,tag=VG_calculatinghp,tag=!VG_skiphealth] run function vanillaguns2:warmachines/hpcalcloop

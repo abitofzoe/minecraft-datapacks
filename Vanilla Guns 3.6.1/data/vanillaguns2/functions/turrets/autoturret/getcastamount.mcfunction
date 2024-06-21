@@ -1,0 +1,1 @@
+execute as @e[type=#vanillaguns2:hostile,distance=1..32,tag=!VG_autoturretskip,tag=!VG_autoturhit] unless score @s VG_autoturid = @e[type=armor_stand,tag=VG_autoturret,distance=..0.1,limit=1] VG_autoturid run scoreboard players add @e[type=armor_stand,tag=VG_autoturret,distance=..0.1] VG_autoturcast 1

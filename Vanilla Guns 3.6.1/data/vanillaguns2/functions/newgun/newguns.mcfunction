@@ -1,0 +1,8 @@
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Pistol\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:iron_nugget"}},distance=..1] run function vanillaguns2:newgun/pistol
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Shotgun\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:spectral_arrow"}},distance=..1] run function vanillaguns2:newgun/shotgun
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"SMG\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:gold_nugget"}},distance=..1] run function vanillaguns2:newgun/smg
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Rifle\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:gold_ingot"}},distance=..1] run function vanillaguns2:newgun/rifle
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Rocket Gun\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:fire_charge"}},distance=..1] run function vanillaguns2:newgun/rocketgun
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Bayonet Charge\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:strength"}}},distance=..1] run function vanillaguns2:newgun/bayonetcharge
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Bayonet Charge\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:long_strength"}}},distance=..1] run function vanillaguns2:newgun/bayonetcharge
+execute if entity @s[nbt={Item:{tag:{display:{Name:"{\"text\":\"Bayonet Charge\"}"}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:strong_strength"}}},distance=..1] run function vanillaguns2:newgun/bayonetcharge

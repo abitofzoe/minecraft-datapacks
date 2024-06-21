@@ -1,0 +1,1 @@
+data merge entity @s {Item:{tag:{VG_guninitialized:1b,VG_gunammo:0L}}}

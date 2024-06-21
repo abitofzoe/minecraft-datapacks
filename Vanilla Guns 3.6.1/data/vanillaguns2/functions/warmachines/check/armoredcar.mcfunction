@@ -1,0 +1,1 @@
+execute if block ~1 ~-1 ~ iron_block if block ~-1 ~-1 ~ iron_block if block ~ ~-1 ~1 iron_block if block ~ ~-1 ~-1 iron_block if block ~1 ~-1 ~1 iron_block if block ~-1 ~-1 ~-1 iron_block if block ~-1 ~-1 ~1 iron_block if block ~1 ~-1 ~-1 iron_block run function vanillaguns2:warmachines/make/armoredcar

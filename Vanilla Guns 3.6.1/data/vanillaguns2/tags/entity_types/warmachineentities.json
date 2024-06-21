@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "minecraft:armor_stand",
+    "minecraft:shulker",
+    "minecraft:area_effect_cloud"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#vanillaguns2:hostile",
+    "minecraft:player"
+  ]
+}

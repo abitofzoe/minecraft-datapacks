@@ -1,0 +1,1 @@
+execute as @a[tag=IZ_inminigame,gamemode=!creative] at @s unless block ~ 2 ~ bedrock run tp @s -193.50 4 51.50 180 0

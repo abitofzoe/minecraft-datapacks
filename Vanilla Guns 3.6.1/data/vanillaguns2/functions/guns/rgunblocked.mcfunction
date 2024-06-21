@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Vanilla Guns: ","color":"green"},{"text":"WARNING: You will explode if you fire in such a tight space!","color":"yellow"}]

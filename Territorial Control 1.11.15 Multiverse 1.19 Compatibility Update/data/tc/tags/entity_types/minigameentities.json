@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:armor_stand",
+    "minecraft:villager",
+    "minecraft:creeper",
+    "minecraft:silverfish",
+    "minecraft:item",
+    "minecraft:player"
+  ]
+}

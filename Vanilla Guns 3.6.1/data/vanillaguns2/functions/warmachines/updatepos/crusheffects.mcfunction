@@ -1,0 +1,5 @@
+summon area_effect_cloud ~ ~ ~ {OwnerUUIDMost:1L,OwnerUUIDLeast:-1L,NoGravity:1b}
+data modify entity @e[type=minecraft:area_effect_cloud,distance=..0.25,sort=nearest,limit=1] OwnerUUIDLeast set from entity @p[tag=VG_vehicleupdatepos] UUIDLeast
+data modify entity @e[type=minecraft:area_effect_cloud,distance=..0.25,sort=nearest,limit=1] OwnerUUIDMost set from entity @p[tag=VG_vehicleupdatepos] UUIDMost
+execute at @s[type=!#vanillaguns2:undead] run data merge entity @e[type=minecraft:area_effect_cloud,distance=..0.25,sort=nearest,limit=1] {Radius:0.1f,Effects:[{Id:11b,Amplifier:1b,Duration:1,ShowParticles:0b},{Id:7b,Amplifier:3b,Duration:1,ShowParticles:0b}],Duration:6,Age:4,WaitTime:4}
+execute at @s[type=#vanillaguns2:undead] run data merge entity @e[type=minecraft:area_effect_cloud,distance=..0.25,sort=nearest,limit=1] {Radius:0.1f,Effects:[{Id:11b,Amplifier:1b,Duration:1,ShowParticles:0b},{Id:6b,Amplifier:3b,Duration:1,ShowParticles:0b}],Duration:6,Age:4,WaitTime:4}
